@@ -10,7 +10,10 @@ print("the length og the set it_companies  is;", length_it)
 # adding twitter to the set it_companies
 it_companies.add("twitter")
 print(it_companies)
-
+# adding multiple it companies to the set.
+multi_ITcompanies= ["Tesla","Samsung", "Deloitte"]
+it_companies.update(multi_ITcompanies)
+print(it_companies)
 # removing google from the set
 it_companies.remove("Google")
 print(it_companies)
