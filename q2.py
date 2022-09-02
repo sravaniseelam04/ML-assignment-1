@@ -9,6 +9,7 @@ print(dog)
 student = {"first_name": "sravani", "last_name":"seelam", "gender":"female", "age":"23", "marital status":"single",
 "skills": ['python', 'java', 'c++'], "country":"india", "city":"khammam", "address":"PNR duplex, telangana, 507002"}
 
+
 #length of the student dictionary
 print( "the lenght of the student dictonary :", len(student))
 
