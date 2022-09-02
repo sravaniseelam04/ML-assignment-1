@@ -6,3 +6,5 @@ for i in range(number):
     A.append(int(input()))
 for b in A:
     a = (math.floor((b/2.2046)*100))/100;
+    B.append(a)
+print(B)

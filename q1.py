@@ -19,7 +19,8 @@ if length%2 == 0:
 
 else:
     median = (ages[length//2])
-    print(median)
+    print('the median of the ages is :', median)
+    
 total = 0
 for i in range(0, length):
     total = total + ages[i]
